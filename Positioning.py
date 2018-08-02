@@ -16,7 +16,7 @@ class Geo:
 				
 	#load external database to obtain geographical info
 				
-	# This creates a Reader object. You should use the same object across multiple requests as creation of it is expensive.
+	#This creates a Reader object. You should use the same object across multiple requests as creation of it is expensive.
 	reader = geoip2.database.Reader('your path to GeoLite2-City.mmdb')
 				
 	#Replace "city" with the method corresponding to the database that you are using, e.g., "country".
