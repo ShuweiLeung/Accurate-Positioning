@@ -18,7 +18,7 @@ GeoLite2 databases are free IP geolocation databases comparable to, but less acc
 
 You can download them from [here](https://dev.maxmind.com/geoip/geoip2/geolite2/).
 
-After that, you can unzip databases wherever you want. But, remember to change the database path in **Positioning.py**.
+After that, unzip databases wherever you want. But, remember to change the database path in **Positioning.py**.
 
 ## Running Script
 Run automation script in Python 3.x. Enjor yourself! :)
