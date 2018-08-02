@@ -11,7 +11,7 @@ class Geo:
     """
     input = open(path, "r")
     for line in input:
-   	    obj = json.loads(line)
+   	obj = json.loads(line)
         ip = obj["ip"]
 				
 	#load external database to obtain geographical info
