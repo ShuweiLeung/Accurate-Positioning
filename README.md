@@ -16,7 +16,7 @@ $ pip3 install geoip2
 
 GeoLite2 databases are free IP geolocation databases comparable to, but less accurate than, MaxMind’s GeoIP2 databases. The GeoLite2 Country and City databases are updated on the first Tuesday of each month. The GeoLite2 ASN database is updated every Tuesday.
 
-You can download them from [click here](https://dev.maxmind.com/geoip/geoip2/geolite2/).
+You can download them from [here](https://dev.maxmind.com/geoip/geoip2/geolite2/).
 
 After that, you can unzip databases wherever you want. But, remember to change the database path in **Positioning.py**.
 
