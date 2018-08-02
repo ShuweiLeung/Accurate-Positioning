@@ -11,8 +11,8 @@ class Geo:
     """
     input = open(path, "r")
     for line in input:
-   	obj = json.loads(line)
-        ip = obj["ip"]
+	obj = json.loads(line)
+	ip = obj["ip"]
 				
 	#load external database to obtain geographical info
 				
@@ -20,7 +20,7 @@ class Geo:
 	reader = geoip2.database.Reader('your path to GeoLite2-City.mmdb')
 				
 	#Replace "city" with the method corresponding to the database that you are using, e.g., "country".
-        geo = reader.city(ip)
+	geo = reader.city(ip)
 
         country_iso_code = geo.country.iso_code  #'US'
         country = geo.country.name  #United States
