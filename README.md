@@ -4,7 +4,7 @@ I need to resolve millions of IP addresses at work. In order to obtain readable 
 
 Here are some instructions:
 
-##Installation
+## Installation
 
 To install the geoip2 module, type:
 
@@ -12,7 +12,7 @@ To install the geoip2 module, type:
 $ pip3 install geoip2
 ```
 
-##Download Free GeoLite2 Databases
+## Download Free GeoLite2 Databases
 
 GeoLite2 databases are free IP geolocation databases comparable to, but less accurate than, MaxMind’s GeoIP2 databases. The GeoLite2 Country and City databases are updated on the first Tuesday of each month. The GeoLite2 ASN database is updated every Tuesday.
 
@@ -20,5 +20,5 @@ You can download them from [click here](https://dev.maxmind.com/geoip/geoip2/geo
 
 After that, you can unzip databases wherever you want. But, remember to change the database path in **Positioning.py**.
 
-##Running Script
+## Running Script
 Run automation script in Python 3.x. Enjor yourself! :)
