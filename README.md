@@ -1,6 +1,6 @@
 # Accurate-Positioning
 
-## Description1
+## Description
 
 At work, I need to resolve a problem involving millions of IP addresses and do some meaningful things. Apparently, in order to obtain readable and geographical information corresponding to each IP address, it's unrealistic to search every IP address on special websites, so I write this automation script to deal with a batch of data.
 
